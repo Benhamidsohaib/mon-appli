@@ -8,7 +8,7 @@ HTML = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet Anti-Gaspi</title>
+    <title>Projet 0 déchets</title>
 
     <style>
         body {
@@ -96,7 +96,7 @@ HTML = """
 
 <header>
     <div style="font-size:22px; font-weight:600">Projet Anti-Gaspi</div>
-    <div class="subtitle">Photos libres de droits — Thème vert écologique</div>
+    <div class="subtitle">Photos libres de droits — 
 </header>
 
 <div class="container">
@@ -104,18 +104,18 @@ HTML = """
   <!-- deux petites vignettes en haut -->
   <section class="grid-top">
     <div class="box small">
-      <img src="https://images.unsplash.com/photo-1602524201788-2a6b5a0a9d6d?auto=format&fit=crop&w=1200&q=80" alt="poubelle à terre">
+      <img src="https://www.istockphoto.com/fr/photo/nuages-sur-les-%C3%A9missions-de-gaz-polluants-rise-in-the-air-gm157313230-5592390"
       <div class="card-body">
         <h3>Photo d'une poubelle déposée</h3>
-        <p class="note">Poubelle renversée / déchets au sol — image libre (Unsplash)</p>
+        <p class="note">Essence polluante</p>
       </div>
     </div>
 
     <div class="box small">
-      <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80" alt="poubelle remplie devant restaurant">
+      <img src="https://unsplash.com/fr/photos/black-trash-bin-with-green-leaves-t06aN6vewaQ" 
       <div class="card-body">
         <h3>Poubelle à côté d'un restaurant (remplie)</h3>
-        <p class="note">Bac plein à l'extérieur d'un commerce — image libre (Unsplash)</p>
+        <p class="note">Poubelle qui déborde</p>
       </div>
     </div>
   </section>
@@ -123,15 +123,15 @@ HTML = """
   <!-- deux grandes vignettes en bas -->
   <section class="grid-bottom">
     <div class="box large">
-      <img src="https://images.unsplash.com/photo-1511918984145-48de785d4c4b?auto=format&fit=crop&w=1400&q=80" alt="conducteur voiture">
+      <img src="https://cdn.pixabay.com/photo/2015/11/03/21/47/edinburgh-1021490_1280.jpg alt="Transports en commun">
       <div class="card-body">
-        <h3>Quelqu'un qui conduit une voiture</h3>
+        <h3>prioriser les transports en communs</h3>
         <p class="note">Image représentant la mobilité et le transport — image libre (Unsplash)</p>
       </div>
     </div>
 
     <div class="box large">
-      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80" alt="océan plastique">
+      <img src="https://www.istockphoto.com/fr/photo/plan-d%C3%A9vastateur-de-d%C3%A9chets-plastiques-dans-loc%C3%A9an-pollution-de-leau-gm1442904386-482071593" alt="océan plastique">
       <div class="card-body">
         <h3>Océan avec une flaque (ou accumulation) de plastique</h3>
         <p class="note">Pollution marine et déchets plastiques — image libre (Unsplash)</p>
