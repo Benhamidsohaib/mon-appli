@@ -2,7 +2,6 @@ from flask import Flask, render_template_string
 
 app = Flask(__name__)
 
-# --- PAGE PRINCIPALE ---
 HTML = """
 <!DOCTYPE html>
 <html lang="fr">
@@ -15,19 +14,22 @@ HTML = """
         body {
             margin: 0;
             font-family: "Poppins", Arial, sans-serif;
-            background-color: #17d617;
+            background-color: #eaf6ea;
             color: #214d2e;
             text-align: center;
         }
 
-        
+        header {
+            padding: 20px;
+            background-color: #2f8a44;
+            color: white;
+        }
 
         .subtitle {
             font-size: 14px;
             color: #e6f6e8;
             margin-top: 6px;
             font-weight: 300;
-        }
 
         .container {
             width: 94%;
