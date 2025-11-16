@@ -96,7 +96,7 @@ HTML = """
 
 <header>
     <div style="font-size:22px; font-weight:600">Projet Anti-Gaspi</div>
-    <div class="subtitle">Photos libres de droits — 
+    <div class="subtitle">Photos libres de droits — Pexels & Pixabay</div>
 </header>
 
 <div class="container">
@@ -104,7 +104,7 @@ HTML = """
   <!-- deux petites vignettes en haut -->
   <section class="grid-top">
     <div class="box small">
-      <img src="https://www.istockphoto.com/fr/photo/nuages-sur-les-%C3%A9missions-de-gaz-polluants-rise-in-the-air-gm157313230-5592390"
+      <img src="https://images.pexels.com/photos/3735212/pexels-photo-3735212.jpeg" alt="Poubelle déposée">
       <div class="card-body">
         <h3>Photo d'une poubelle déposée</h3>
         <p class="note">Essence polluante</p>
@@ -112,7 +112,7 @@ HTML = """
     </div>
 
     <div class="box small">
-      <img src="https://unsplash.com/fr/photos/black-trash-bin-with-green-leaves-t06aN6vewaQ" 
+      <img src="https://images.pexels.com/photos/5642045/pexels-photo-5642045.jpeg" alt="Poubelle débordante">
       <div class="card-body">
         <h3>Poubelle à côté d'un restaurant (remplie)</h3>
         <p class="note">Poubelle qui déborde</p>
@@ -123,18 +123,18 @@ HTML = """
   <!-- deux grandes vignettes en bas -->
   <section class="grid-bottom">
     <div class="box large">
-      <img src="https://cdn.pixabay.com/photo/2015/11/03/21/47/edinburgh-1021490_1280.jpg alt="Transports en commun">
+      <img src="https://cdn.pixabay.com/photo/2015/11/03/21/47/edinburgh-1021490_1280.jpg" alt="Transports en commun">
       <div class="card-body">
-        <h3>prioriser les transports en communs</h3>
-        <p class="note">Image représentant la mobilité et le transport — image libre (Unsplash)</p>
+        <h3>Prioriser les transports en commun</h3>
+        <p class="note">Mobilité durable — image libre Pixabay</p>
       </div>
     </div>
 
     <div class="box large">
-      <img src="https://www.istockphoto.com/fr/photo/plan-d%C3%A9vastateur-de-d%C3%A9chets-plastiques-dans-loc%C3%A9an-pollution-de-leau-gm1442904386-482071593" alt="océan plastique">
+      <img src="https://images.pexels.com/photos/2873277/pexels-photo-2873277.jpeg" alt="Pollution plastique océan">
       <div class="card-body">
-        <h3>Océan avec une flaque (ou accumulation) de plastique</h3>
-        <p class="note">Pollution marine et déchets plastiques — image libre (Unsplash)</p>
+        <h3>Océan avec accumulation de plastique</h3>
+        <p class="note">Pollution marine — image libre Pexels</p>
       </div>
     </div>
   </section>
@@ -142,7 +142,7 @@ HTML = """
 </div>
 
 <footer>
-    Fait par Sohaib — images Unsplash (libres). Si tu veux d'autres photos, dis-moi le type exact et je les remplace.
+    Fait par Sohaib ait bella — images libres de droits (Pexels / Pixabay)
 </footer>
 
 </body>
@@ -155,4 +155,5 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
+            
 
