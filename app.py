@@ -2,6 +2,7 @@ from flask import Flask, render_template_string
 
 app = Flask(__name__)
 
+# --- PAGE PRINCIPALE ---
 HTML = """
 <!DOCTYPE html>
 <html lang="fr">
@@ -67,6 +68,7 @@ HTML = """
             object-fit: cover;
             border-radius: 8px;
             display: block;
+            cursor: pointer;
         }
 
         .small img { height: 150px; }
@@ -96,7 +98,7 @@ HTML = """
 
 <header>
     <div style="font-size:22px; font-weight:600">Projet Anti-Gaspi</div>
-    <div class="subtitle">Photos libres de droits — Pexels & Pixabay</div>
+    <div class="subtitle">Photos libres de droits</div>
 </header>
 
 <div class="container">
@@ -104,17 +106,21 @@ HTML = """
   <!-- deux petites vignettes en haut -->
   <section class="grid-top">
     <div class="box small">
-      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fz%2Fcar-emitting-carbon-dioxide-co-environmental-pollution-problem-vector-illustration-isolated-white-background-124259733.jpg&f=1&nofb=1&ipt=d91c33fa5278a4c60968589c59d3d39a9dcd2c658f499fa4c1fb55cf10544446" alt="voiture pollution">
+      <a href="/voiture">
+        <img src="https://cdn.pixabay.com/photo/2016/11/29/10/07/auto-1868726_1280.jpg" alt="voiture pollution">
+      </a>
       <div class="card-body">
-        <h3>Photo d'une poubelle déposée</h3>
-        <p class="note">Essence polluante</p>
+        <h3>Voiture polluante</h3>
+        <p class="note">Émission de fumée</p>
       </div>
     </div>
 
     <div class="box small">
-      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fvecteurs-libre%2Fpoubelle-debordante-ordures-menageres-restes_376504-6.jpg%3Fsize%3D626%26ext%3Djpg&f=1&nofb=1&ipt=884b10f01d118cd843823cdf5436a0339de66c17b9d7eac5ffe0f904b9c6133e">
+      <a href="/poubelle">
+        <img src="https://cdn.pixabay.com/photo/2016/11/29/04/23/garbage-1868940_1280.jpg" alt="Poubelle débordante">
+      </a>
       <div class="card-body">
-        <h3>Poubelle  (remplie)</h3>
+        <h3>Poubelle (remplie)</h3>
         <p class="note">Poubelle qui déborde</p>
       </div>
     </div>
@@ -123,18 +129,22 @@ HTML = """
   <!-- deux grandes vignettes en bas -->
   <section class="grid-bottom">
     <div class="box large">
-      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fvecteurs-premium%2Fdessin-bus-descendant-route-montagnes-arriere-plan_1157866-1253.jpg&f=1&nofb=1&ipt=4bd3ce37bc5db28f05b7de62489e08eb389db3f5953928f5a3764ce51faf4863" alt="Transports en commun">
+      <a href="/bus">
+        <img src="https://cdn.pixabay.com/photo/2016/01/19/17/52/bus-1159970_1280.jpg" alt="Bus">
+      </a>
       <div class="card-body">
         <h3>Prioriser les transports en commun</h3>
-        <p class="note">Mobilité durable — image libre Pixabay</p>
+        <p class="note">Mobilité durable</p>
       </div>
     </div>
 
     <div class="box large">
-      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fd%25C3%25A9chets-plastiques-de-dans-l-eau-mer-oc%25C3%25A9an-illustration-vecteur-plastique-la-avec-des-dessin-d-environnement-pollu%25C3%25A9-202922331.jpg&f=1&nofb=1&ipt=5ed8f954c12b8842c62d930525109a20e4ec6056c08f7b2a822b3abff1f47283" alt="Pollution plastique océan">
+      <a href="/ocean">
+        <img src="https://cdn.pixabay.com/photo/2018/05/13/18/36/plastic-3399022_1280.jpg" alt="Pollution marine">
+      </a>
       <div class="card-body">
-        <h3>Océan avec accumulation de plastique</h3>
-        <p class="note">Pollution marine — image libre Pexels</p>
+        <h3>Pollution plastique dans l'océan</h3>
+        <p class="note">Déchets marins</p>
       </div>
     </div>
   </section>
@@ -142,18 +152,83 @@ HTML = """
 </div>
 
 <footer>
-    Fait par Sohaib ait bella — images libres de droits (Pexels / Pixabay)
+    Fait par Sohaib — images libres de droits
 </footer>
 
 </body>
 </html>
 """
 
+# --- 4 PAGES INDIVIDUELLES ---
+PAGE_VOITURE = """
+<h1>Réduire la pollution automobile</h1>
+<p>Pour protéger l’environnement, il est essentiel de privilégier :</p>
+<ul>
+  <li>la marche à pied</li>
+  <li>le vélo</li>
+  <li>les déplacements courts sans voiture</li>
+</ul>
+<p>Chaque trajet évité réduit les émissions de CO₂.</p>
+<a href="/">⬅ Retour</a>
+"""
+
+PAGE_POUBELLE = """
+<h1>Mieux gérer ses déchets</h1>
+<p>Pour éviter que les poubelles débordent :</p>
+<ul>
+  <li>trier correctement ses déchets</li>
+  <li>utiliser la bonne poubelle</li>
+  <li>réduire ses déchets inutiles</li>
+</ul>
+<a href="/">⬅ Retour</a>
+"""
+
+PAGE_BUS = """
+<h1>Favoriser les transports en commun</h1>
+<p>Le bus, le tram ou le métro permettent de :</p>
+<ul>
+  <li>réduire la pollution</li>
+  <li>limiter les embouteillages</li>
+  <li>économiser du carburant</li>
+</ul>
+<a href="/">⬅ Retour</a>
+"""
+
+PAGE_OCEAN = """
+<h1>Sensibilisation à la pollution plastique</h1>
+<p>Jeter ses déchets au sol finit souvent dans :</p>
+<ul>
+  <li>les rivières</li>
+  <li>les égouts</li>
+  <li>l’océan</li>
+</ul>
+<p>Chaque geste compte : gardons la planète propre.</p>
+<a href="/">⬅ Retour</a>
+"""
+
+
 @app.route("/")
 def home():
     return render_template_string(HTML)
 
+@app.route("/voiture")
+def voiture():
+    return render_template_string(PAGE_VOITURE)
+
+@app.route("/poubelle")
+def poubelle():
+    return render_template_string(PAGE_POUBELLE)
+
+@app.route("/bus")
+def bus():
+    return render_template_string(PAGE_BUS)
+
+@app.route("/ocean")
+def ocean():
+    return render_template_string(PAGE_OCEAN)
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
+
             
 
