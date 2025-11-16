@@ -15,7 +15,7 @@ HTML = """
         body {
             margin: 0;
             font-family: "Poppins", Arial, sans-serif;
-            background-color: #eaf6ea;
+            background-color: #17d617;
             color: #214d2e;
             text-align: center;
         }
