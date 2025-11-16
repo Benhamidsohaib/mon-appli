@@ -107,7 +107,7 @@ HTML = """
   <section class="grid-top">
     <div class="box small">
       <a href="/voiture">
-        <img src="https://cdn.pixabay.com/photo/2016/11/29/10/07/auto-1868726_1280.jpg" alt="voiture pollution">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fz%2Fcar-emitting-carbon-dioxide-co-environmental-pollution-problem-vector-illustration-isolated-white-background-124259733.jpg&f=1&nofb=1&ipt=d91c33fa5278a4c60968589c59d3d39a9dcd2c658f499fa4c1fb55cf10544446"" alt="voiture pollution">
       </a>
       <div class="card-body">
         <h3>Voiture polluante</h3>
@@ -117,7 +117,7 @@ HTML = """
 
     <div class="box small">
       <a href="/poubelle">
-        <img src="https://cdn.pixabay.com/photo/2016/11/29/04/23/garbage-1868940_1280.jpg" alt="Poubelle débordante">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fvecteurs-libre%2Fpoubelle-debordante-ordures-menageres-restes_376504-6.jpg%3Fsize%3D626%26ext%3Djpg&f=1&nofb=1&ipt=884b10f01d118cd843823cdf5436a0339de66c17b9d7eac5ffe0f904b9c6133e" alt="Poubelle débordante">
       </a>
       <div class="card-body">
         <h3>Poubelle (remplie)</h3>
@@ -130,7 +130,7 @@ HTML = """
   <section class="grid-bottom">
     <div class="box large">
       <a href="/bus">
-        <img src="https://cdn.pixabay.com/photo/2016/01/19/17/52/bus-1159970_1280.jpg" alt="Bus">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fd%25C3%25A9chets-plastiques-de-dans-l-eau-mer-oc%25C3%25A9an-illustration-vecteur-plastique-la-avec-des-dessin-d-environnement-pollu%25C3%25A9-202922331.jpg&f=1&nofb=1&ipt=5ed8f954c12b8842c62d930525109a20e4ec6056c08f7b2a822b3abff1f47283" alt="Bus">
       </a>
       <div class="card-body">
         <h3>Prioriser les transports en commun</h3>
