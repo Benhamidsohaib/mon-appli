@@ -161,49 +161,60 @@ HTML = """
 
 # --- 4 PAGES INDIVIDUELLES ---
 PAGE_VOITURE = """
-<h1>Réduire la pollution automobile</h1>
-<p>Pour protéger l’environnement, il est essentiel de privilégier :</p>
-<ul>
-  <li>la marche à pied</li>
-  <li>le vélo</li>
-  <li>les déplacements courts sans voiture</li>
-</ul>
-<p>Chaque trajet évité réduit les émissions de CO₂.</p>
-<a href="/">⬅ Retour</a>
+<body style="background:#969b93; font-family:Poppins; padding:30px; color:#000;">
+    <h1>Réduire la pollution automobile</h1>
+    <p>Pour protéger l’environnement, il est essentiel de privilégier :</p>
+    <ul>
+      <li>la marche à pied</li>
+      <li>le vélo</li>
+      <li>les déplacements courts sans voiture</li>
+    </ul>
+    <p>Chaque trajet évité réduit les émissions de CO₂.</p>
+    <a href="/" style="color:black; font-weight:bold;">⬅ Retour</a>
+</body>
 """
+
 
 PAGE_POUBELLE = """
-<h1>Mieux gérer ses déchets</h1>
-<p>Pour éviter que les poubelles débordent :</p>
-<ul>
-  <li>trier correctement ses déchets</li>
-  <li>utiliser la bonne poubelle</li>
-  <li>réduire ses déchets inutiles</li>
-</ul>
-<a href="/">⬅ Retour</a>
+<body style="background:#095b21; font-family:Poppins; padding:30px; color:white;">
+    <h1>Mieux gérer ses déchets</h1>
+    <p>Pour éviter que les poubelles débordent :</p>
+    <ul>
+      <li>trier correctement ses déchets</li>
+      <li>utiliser la bonne poubelle</li>
+      <li>réduire ses déchets inutiles</li>
+    </ul>
+    <a href="/" style="color:white; font-weight:bold;">⬅ Retour</a>
+</body>
 """
+
 
 PAGE_BUS = """
-<h1>Favoriser les transports en commun</h1>
-<p>Le bus, le tram ou le métro permettent de :</p>
-<ul>
-  <li>réduire la pollution</li>
-  <li>limiter les embouteillages</li>
-  <li>économiser du carburant</li>
-</ul>
-<a href="/">⬅ Retour</a>
+<body style="background:#fff7b3; font-family:Poppins; padding:30px;">
+    <h1>Favoriser les transports en commun</h1>
+    <p>Le bus, le tram ou le métro permettent de :</p>
+    <ul>
+      <li>réduire la pollution</li>
+      <li>limiter les embouteillages</li>
+      <li>économiser du carburant</li>
+    </ul>
+    <a href="/">⬅ Retour</a>
+</body>
 """
 
+
 PAGE_OCEAN = """
-<h1>Sensibilisation à la pollution plastique</h1>
-<p>Jeter ses déchets au sol finit souvent dans :</p>
-<ul>
-  <li>les rivières</li>
-  <li>les égouts</li>
-  <li>l’océan</li>
-</ul>
-<p>Chaque geste compte : gardons la planète propre.</p>
-<a href="/">⬅ Retour</a>
+<body style="background:#b3e9f9; font-family:Poppins; padding:30px;">
+    <h1>Sensibilisation à la pollution plastique</h1>
+    <p>Jeter ses déchets au sol finit souvent dans :</p>
+    <ul>
+      <li>les rivières</li>
+      <li>les égouts</li>
+      <li>l’océan</li>
+    </ul>
+    <p>Chaque geste compte : gardons la planète propre.</p>
+    <a href="/">⬅ Retour</a>
+</body>
 """
 
 
