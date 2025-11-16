@@ -20,7 +20,7 @@ HTML = """
             text-align: center;
         }
 
-        CC
+        
 
         .subtitle {
             font-size: 14px;
@@ -103,7 +103,7 @@ HTML = """
   <section class="grid-top">
     <div class="box small">
       <a href="/voiture">
-        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fz%2Fcar-emitting-carbon-dioxide-co-environmental-pollution-problem-vector-illustration-isolated-white-background-124259733.jpg&f=1&nofb=1&ipt=d91c33fa5278a4c60968589c59d3d39a9dcd2c658f499fa4c1fb55cf10544446"" alt="voiture pollution">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fz%2Fcar-emitting-carbon-dioxide-co-environmental-pollution-problem-vector-illustration-isolated-white-background-124259733.jpg&f=1&nofb=1&ipt=d91c33fa5278a4c60968589c59d3d39a9dcd2c658f499fa4c1fb55cf10544446" alt="voiture pollution">
       </a>
       <div class="card-body">
         <h3>Voiture polluante</h3>
