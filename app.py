@@ -25,12 +25,6 @@ HTML = """
             color: white;
         }
 
-        .subtitle {
-            font-size: 14px;
-            color: #e6f6e8;
-            margin-top: 6px;
-            font-weight: 300;
-
         .container {
             width: 94%;
             max-width: 1100px;
@@ -38,14 +32,7 @@ HTML = """
             padding: 0 10px 30px;
         }
 
-        .grid-top {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 16px;
-            margin-bottom: 18px;
-        }
-
-        .grid-bottom {
+        .grid-top, .grid-bottom {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 16px;
@@ -56,38 +43,18 @@ HTML = """
             padding: 10px;
             border-radius: 12px;
             box-shadow: 0 6px 18px rgba(20, 60, 30, 0.06);
-            text-align: left;
-            overflow: hidden;
         }
 
         .box img {
             width: 100%;
-            height: 190px;
+            height: 200px;
             object-fit: cover;
             border-radius: 8px;
-            display: block;
             cursor: pointer;
-        }
-
-        .small img { height: 150px; }
-        .large img { height: 270px; }
-
-        .card-body {
-            padding: 10px 6px 12px;
-        }
-        h3 { margin: 0 0 6px; color:#1f4a2a; font-size:16px; }
-        p.note { margin:0; color:#6b756d; font-size:13px; }
-
-        footer {
-            margin-top: 22px;
-            padding: 12px;
-            color: #4a604f;
-            font-size: 13px;
         }
 
         @media (max-width:800px){
             .grid-top, .grid-bottom { grid-template-columns: 1fr; }
-            .box img { height: 220px; }
         }
     </style>
 </head>
@@ -95,11 +62,12 @@ HTML = """
 <body>
 
 <header>
-    <div style="font-size:22px; font-weight:600">Objectif 0 déchets</div>
-    <div class="subtitle">Photos libres de droits</div>
+    <div style="font-size:22px; font-weight:600">Projet Anti-Gaspi</div>
 </header>
 
 <div class="container">
+
+  <section class="grid-top">
 
   <!-- deux petites vignettes en haut -->
   <section class="grid-top">
