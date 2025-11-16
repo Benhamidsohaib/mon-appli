@@ -20,11 +20,7 @@ HTML = """
             text-align: center;
         }
 
-        header {
-            padding: 20px;
-            background-color: #2f8a44;
-            color: white;
-        }
+        CC
 
         .subtitle {
             font-size: 14px;
@@ -97,7 +93,7 @@ HTML = """
 <body>
 
 <header>
-    <div style="font-size:22px; font-weight:600">Projet Anti-Gaspi</div>
+    <div style="font-size:22px; font-weight:600">Objectif 0 déchets</div>
     <div class="subtitle">Photos libres de droits</div>
 </header>
 
@@ -111,7 +107,7 @@ HTML = """
       </a>
       <div class="card-body">
         <h3>Voiture polluante</h3>
-        <p class="note">Émission de fumée</p>
+        <p class="note">Émission de C02</p>
       </div>
     </div>
 
@@ -120,7 +116,7 @@ HTML = """
         <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fvecteurs-libre%2Fpoubelle-debordante-ordures-menageres-restes_376504-6.jpg%3Fsize%3D626%26ext%3Djpg&f=1&nofb=1&ipt=884b10f01d118cd843823cdf5436a0339de66c17b9d7eac5ffe0f904b9c6133e" alt="Poubelle débordante">
       </a>
       <div class="card-body">
-        <h3>Poubelle (remplie)</h3>
+        <h3>Poubelle </h3>
         <p class="note">Poubelle qui déborde</p>
       </div>
     </div>
@@ -152,7 +148,8 @@ HTML = """
 </div>
 
 <footer>
-    Fait par Sohaib — images libres de droits
+       Site réalisé et développpé par Sohaib Ait bella —
+                  images libres de droits
 </footer>
 
 </body>
