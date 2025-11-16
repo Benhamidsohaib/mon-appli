@@ -130,7 +130,7 @@ HTML = """
   <section class="grid-bottom">
     <div class="box large">
       <a href="/bus">
-        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fd%25C3%25A9chets-plastiques-de-dans-l-eau-mer-oc%25C3%25A9an-illustration-vecteur-plastique-la-avec-des-dessin-d-environnement-pollu%25C3%25A9-202922331.jpg&f=1&nofb=1&ipt=5ed8f954c12b8842c62d930525109a20e4ec6056c08f7b2a822b3abff1f47283" alt="Bus">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fvecteurs-premium%2Fdessin-bus-descendant-route-montagnes-arriere-plan_1157866-1253.jpg&f=1&nofb=1&ipt=4bd3ce37bc5db28f05b7de62489e08eb389db3f5953928f5a3764ce51faf4863" alt="Bus">
       </a>
       <div class="card-body">
         <h3>Prioriser les transports en commun</h3>
@@ -140,7 +140,7 @@ HTML = """
 
     <div class="box large">
       <a href="/ocean">
-        <img src="https://cdn.pixabay.com/photo/2018/05/13/18/36/plastic-3399022_1280.jpg" alt="Pollution marine">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fd%25C3%25A9chets-plastiques-de-dans-l-eau-mer-oc%25C3%25A9an-illustration-vecteur-plastique-la-avec-des-dessin-d-environnement-pollu%25C3%25A9-202922331.jpg&f=1&nofb=1&ipt=5ed8f954c12b8842c62d930525109a20e4ec6056c08f7b2a822b3abff1f47283" alt="Pollution marine">
       </a>
       <div class="card-body">
         <h3>Pollution plastique dans l'océan</h3>
