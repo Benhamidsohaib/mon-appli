@@ -195,59 +195,152 @@ def home():
 # ------------------------------------------------
 #   PAGES INDIVIDUELLES (inchangées)
 # ------------------------------------------------
+
 PAGE_VOITURE = """
-<body style="background:#969b93; font-family:Poppins; padding:30px; color:#000;">
-    <h1>Réduire la pollution automobile</h1>
-    <p>Pour protéger l’environnement, il est essentiel de privilégier :</p>
-    <ul>
-      <li>la marche à pied</li>
-      <li>le vélo</li>
-      <li>les déplacements courts sans voiture</li>
-    </ul>
-    <p>Chaque trajet évité réduit les émissions de CO₂.</p>
-    <a href="/" style="color:black; font-weight:bold;">⬅ Retour</a>
-</body>
+<div style='background:#969b93; min-height:100vh; padding:20px; color:white;'>
+<h1>Réduire la pollution automobile</h1>
+
+<p>
+La voiture individuelle est aujourd’hui l’une des plus grandes sources d’émission de CO₂.
+Même les trajets courts multiplient la pollution atmosphérique et sonore.
+Pourtant, de nombreux gestes simples permettent de réduire considérablement notre impact.
+</p>
+
+<h2>Pourquoi limiter la voiture ?</h2>
+<ul>
+  <li>Les moteurs rejettent du dioxyde de carbone, responsable du réchauffement climatique.</li>
+  <li>Les embouteillages augmentent la consommation de carburant.</li>
+  <li>La pollution de l’air favorise les maladies cardiaques et respiratoires.</li>
+  <li>L’utilisation excessive des voitures dégrade les routes et les espaces urbains.</li>
+</ul>
+
+<h2>Des alternatives simples et efficaces</h2>
+<ul>
+  <li>Marcher ou utiliser le vélo pour les trajets de moins de 2 km.</li>
+  <li>Faire du covoiturage entre voisins, collègues ou amis.</li>
+  <li>Regrouper les courses et déplacements pour réduire les aller-retours.</li>
+  <li>Favoriser les transports en commun quand c’est possible.</li>
+</ul>
+
+<p>
+Chaque trajet évité, même court, représente un geste concret pour le climat.
+Agir pour la planète commence avec des choix du quotidien.
+</p>
+
+<a href="/" style="color:white; font-weight:bold;">⬅ Retour</a>
+</div>
 """
+
 
 PAGE_POUBELLE = """
-<body style="background:#095b21; font-family:Poppins; padding:30px; color:white;">
-    <h1>Mieux gérer ses déchets</h1>
-    <p>Pour éviter que les poubelles débordent :</p>
-    <ul>
-      <li>trier correctement ses déchets</li>
-      <li>utiliser la bonne poubelle</li>
-      <li>réduire ses déchets inutiles</li>
-    </ul>
-    <a href="/" style="color:white; font-weight:bold;">⬅ Retour</a>
-</body>
+<div style='background:#095b21; min-height:100vh; padding:20px; color:white;'>
+<h1>Mieux gérer ses déchets</h1>
+
+<p>
+Le débordement des poubelles est un problème fréquent en ville.
+Un mauvais tri entraîne une pollution importante et complique le recyclage.
+Pourtant, de simples bonnes pratiques peuvent tout changer.
+</p>
+
+<h2>Comment éviter les débordements ?</h2>
+<ul>
+  <li>Trier systématiquement : papier, plastique, verre, déchets alimentaires.</li>
+  <li>Compresser les emballages (bouteilles, cartons) pour gagner de la place.</li>
+  <li>Ne jamais jeter d’objets encombrants dans une petite poubelle.</li>
+  <li>Utiliser les points de collecte pour le verre et les déchets recyclables.</li>
+</ul>
+
+<h2>Pourquoi c’est important ?</h2>
+<ul>
+  <li>Un tri correct facilite le recyclage et limite le gaspillage.</li>
+  <li>Des poubelles propres empêchent les nuisibles et mauvaises odeurs.</li>
+  <li>Les déchets non triés terminent souvent dans la nature.</li>
+</ul>
+
+<p>
+Adopter de bons réflexes, c’est protéger son quartier, sa ville
+et l’environnement pour les générations futures.
+</p>
+
+<a href="/" style="color:white; font-weight:bold;">⬅ Retour</a>
+</div>
 """
+
 
 PAGE_BUS = """
-<body style="background:#fff7b3; font-family:Poppins; padding:30px;">
-    <h1>Favoriser les transports en commun</h1>
-    <p>Le bus, le tram ou le métro permettent de :</p>
-    <ul>
-      <li>réduire la pollution</li>
-      <li>limiter les embouteillages</li>
-      <li>économiser du carburant</li>
-    </ul>
-    <a href="/">⬅ Retour</a>
-</body>
+<div style='background:#fff4a3; min-height:100vh; padding:20px; color:#5a5000;'>
+<h1>Favoriser les transports en commun</h1>
+
+<p>
+Prendre le bus, le tramway ou le métro est l’un des moyens les plus efficaces
+de réduire la pollution en ville. Un seul bus peut remplacer jusqu’à 40 voitures !
+</p>
+
+<h2>Les avantages des transports en commun</h2>
+<ul>
+  <li>Ils réduisent considérablement les émissions de CO₂ par passager.</li>
+  <li>Ils permettent de limiter les embouteillages et la circulation excessive.</li>
+  <li>Ils économisent du carburant et réduisent la dépendance au pétrole.</li>
+  <li>Ils diminuent le stress lié à la conduite et au stationnement.</li>
+</ul>
+
+<h2>Un choix écologique et économique</h2>
+<p>
+Le coût d’un abonnement transport est souvent bien inférieur à l’ensemble
+des dépenses liées à l’entretien d’un véhicule personnel : carburant,
+assurance, réparation, stationnement…
+</p>
+
+<p>
+Adopter les transports en commun, c’est choisir un mode de vie plus durable,
+plus pratique, et plus économique.
+</p>
+
+<a href="/" style="color:#5a5000; font-weight:bold;">⬅ Retour</a>
+</div>
 """
 
+
 PAGE_OCEAN = """
-<body style="background:#b3e9f9; font-family:Poppins; padding:30px;">
-    <h1>Sensibilisation à la pollution plastique</h1>
-    <p>Jeter ses déchets au sol finit souvent dans :</p>
-    <ul>
-      <li>les rivières</li>
-      <li>les égouts</li>
-      <li>l’océan</li>
-    </ul>
-    <p>Chaque geste compte : gardons la planète propre.</p>
-    <a href="/">⬅ Retour</a>
-</body>
+<div style='background:#8fd6ff; min-height:100vh; padding:20px; color:#003b5c;'>
+<h1>Sensibilisation à la pollution plastique</h1>
+
+<p>
+Chaque année, plus de 8 millions de tonnes de plastique finissent dans les océans.
+Une grande partie provient de déchets jetés au sol ou mal triés.
+Même un petit emballage peut parcourir des kilomètres jusqu’à la mer.
+</p>
+
+<h2>D’où vient ce plastique ?</h2>
+<ul>
+  <li>Des déchets abandonnés dans la rue et emportés par la pluie.</li>
+  <li>Des poubelles débordantes dont les déchets s’envolent.</li>
+  <li>Des microplastiques provenant de vêtements, pneus, objets usés.</li>
+  <li>Des déchets rejetés illégalement dans la nature.</li>
+</ul>
+
+<h2>Les conséquences sur les océans</h2>
+<ul>
+  <li>Les animaux confondent le plastique avec de la nourriture.</li>
+  <li>Les tortues, poissons et oiseaux s’y blessent ou s’y étouffent.</li>
+  <li>Les microplastiques entrent dans la chaîne alimentaire humaine.</li>
+  <li>Les écosystèmes marins se dégradent durablement.</li>
+</ul>
+
+<h2>Que pouvons-nous faire ?</h2>
+<ul>
+  <li>Jeter ses déchets uniquement dans la bonne poubelle.</li>
+  <li>Ramasser un déchet que l’on voit par terre.</li>
+  <li>Réduire sa consommation de plastique jetable.</li>
+  <li>Éviter les sacs, bouteilles et couverts jetables.</li>
+</ul>
+
+<p>Protéger l’océan, c’est protéger la vie sur Terre.</p>
+
+<a href="/" style="color:#003b5c; font-weight:bold;">⬅ Retour</a>
+</div>
 """
+
 
 
 @app.route("/voiture")
@@ -270,6 +363,4 @@ def ocean():
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
-
-            
 
